@@ -1,7 +1,10 @@
 public class Driver {
     public static void main(String[] arguments) {
+        BicycleSKU bike0 = new BicycleSKU();
         BicycleSKU bike1 = new BicycleSKU();
         BicycleSKU bike2 = new BicycleSKU();
+
+
 
         bike1.setManufacturer("Trek");
         bike1.setModel("Emonda");
@@ -29,6 +32,8 @@ public class Driver {
         System.out.println("HERE IS A DUMP OF THE TWO OBJECTS THAT WERE " +
                 "INITIALIZED USING THE MUTATOR METHODS…");
 
+        bike0.display();
+        System.out.println();
         bike1.display();
         System.out.println();
         bike2.display();
