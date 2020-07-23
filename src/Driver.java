@@ -1,3 +1,5 @@
+/* Next time I'd like to use JUnit for testing. */
+
 public class Driver {
     public static void main(String[] arguments) {
         BicycleSKU bike0 = new BicycleSKU();
